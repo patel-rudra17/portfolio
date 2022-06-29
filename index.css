@@ -1,0 +1,631 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.line{
+    height: 3px;
+    width: 100px;
+    margin-top: 4px;
+    margin-left: 15px;
+    background-color: aqua;
+}
+
+#navbar::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+ }
+ #header{
+    background-image: url('desk.jpeg');
+    height: 1100px;
+ }
+
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 100px;
+    margin: 3px 6px;
+    border: 3px solid red;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: brown;
+}
+#img{
+    background-image: url('desk.jpeg');
+}
+.h4{
+    text-align: center;
+    background-image: linear-gradient(to left, violet, green, rgb(255, 0, 174), red, pink);
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+.h1{
+    text-align: center;
+    color: gray;
+}
+.h2{
+    text-align: center;
+    color: gray;
+    cursor: pointer;
+    text-decoration: underline salmon;
+}
+.h2:hover{
+    text-decoration: none;
+}
+.h3{
+    text-align: center;
+    visibility: hidden;
+    color: gray;
+}
+.h2:hover+.h3{
+    visibility: visible;
+    text-decoration: none;
+}
+button{
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid red;
+}
+button:hover{
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+}
+.but{
+    text-align: center;
+}
+#fst{
+    text-align: center;
+}
+.h11{
+    text-decoration: underline;
+}
+#sec{
+    display: flex;
+    text-align: center;
+}
+.frst{
+    background-color: white;
+    height: 300px;
+    padding: 60px;
+}
+.seco{
+    background-color: gray;
+    height: 300px;
+    padding: 60px;
+}
+#thr{
+    display: flex;
+    text-align: center;
+}
+.thir{
+    background-color: gray;
+    height: 300px;
+    width: 500px;
+    padding: 60px;
+}
+.four{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    padding: 60px;
+}
+
+/* ...................................footer................................... */
+.footer{
+    display: flex;
+    text-align: center;
+    width: 1503px;
+    color: gray;
+    background-color: black;
+}
+.Navigate ul li{
+    padding: 20px;
+}
+.company{
+    padding: 20px;
+}
+.Followme{
+    padding: 20px;
+}
+li{
+    list-style-type: none;
+}
+.co{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+body{
+    background-color: lightgray;
+    text-align: center;
+}
+#forth .process-icon{
+
+/* #home-c .process-icon { */
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    transition: all 1s;
+
+}
+
+#forth .process-icon:hover {
+    background: #ffbc00;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+}
+
+#forth .process-step {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    background:green;
+    color: black;
+    border-radius: 50%;
+    height: 15px;
+    width: 1px;
+    line-height: 20px;
+    padding: 1rem;
+    transition: all 1s;
+}
+#forth{
+    display: flex;
+}
+.fifth{
+    background-color: white;
+}
+.six{
+    background-color: gray;
+}
+.Followme li{
+    font-size: larger;
+    font-weight: bolder;
+}
+.Followme i:hover{
+    background-color: #ffbc00;
+
+}
+.Navigate li{
+    font-size: larger;
+    font-weight: bolder;
+}
+.Navigate li:hover{
+    background-color: #ffbc00;
+}
+
+
+
+/* ...................................about section................................... */
+
+.underline{
+    border:solid #ffbc00;
+}
+
+.text-center{
+    padding: 3rem;
+    text-align: center;
+}
+.title{
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    padding-bottom: 0.5rem;
+    color: black;
+}
+.para{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+img{
+    width: 80%;
+}
+.bio{
+    background-color:rgba(90, 90, 90, 0.5) ;
+}
+.bio h4{
+font-size: 2rem;
+}
+  #about-1 .about-info {
+    display: grid;
+    grid-template-areas:
+      "bio-img bio bio"
+      "aw1 aw2 aw3";
+    grid-gap: 1.2rem;
+  }
+  
+  #about-1 .bio-image {
+    grid-area: bio-img;
+  }
+  
+  #about-1 .bio {
+    grid-area: bio;
+    border-left: 3px solid #ffbc00;
+    padding: 0.8rem;
+  }
+  
+  #about-1 .award-1 {
+    grid-area: aw1;
+  }
+  
+  #about-1 .award-2 {
+    grid-area: aw2;
+  }
+  
+  #about-1 .award-3 {
+    grid-area: aw3;
+  }
+  
+  #about-1 .award-1 .fas,
+  #about-1 .award-2 .fas,
+  #about-1 .award-3 .fas {
+    color: #ffbc00;
+    margin: 1rem;
+  }
+
+  
+  
+   
+  #about-2{
+      background-color: rgba(0, 0, 0, 0.767);
+    height: 100%  ;
+    padding: 3rem 0;
+} 
+.title{
+    color: #fff;
+}
+.heading{
+    color:#fff;
+    padding: 10px;
+    font-size:22px;
+} 
+#about-2 .p1{
+    height: 40px;
+    background-color: #ccc;
+    margin: 13px;
+}
+#about-2 .p1 div{
+    color: #fff;
+    background-color: #ffbc00;
+    height:100%;
+}
+.bottom2 h2{
+    margin-left: 2.5cm;
+}
+.boxes{
+    display: flex;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+.b1,.b2,.b3,.b4{
+    border-color: black;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px 10px;
+}
+.box1,.box2,.box3,.box4{
+    padding: 10px 20px;
+}
+.boxes img {
+    border-radius: 50%;
+}
+.b11,.b22,.b33,.b44{
+   display: flex;
+   padding: 30px;
+}
+.b11 p,.b22 p,.b33 p,.b44 p{
+   margin-left: 15px;
+}
+    
+
+/* ...................................my work section................................... */
+
+
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .item {
+    position: relative;
+    background: lightblue;
+    overflow: hidden;
+  }
+  .item::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background: inherit;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
+    transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1);
+  }
+  .item:hover::after {
+    transform: scale(2) translateX(0%) translateY(0%) rotate(-28deg);
+  }
+  .item:hover .item-image {
+    transform: scale(1.2);
+  }
+  .item:hover .item-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .item-image {
+    height: auto;
+    transform: translateZ(0);
+    display: block;
+    transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
+  }
+  .item-image::before {
+    content: "";
+    display: block;
+    padding-top: 75%;
+    overflow: hidden;
+  }
+  .item-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    line-height: 0;
+  }
+  .item-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    transform: translateX(-20%);
+    transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1) transform
+      cubic-bezier(0.2, 1, 0.3, 1);
+    transition-delay: 300ms;
+  }
+  .item-text-wrap {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .item-text-title {
+    font-size: 2rem;
+    padding: 0 1rem;
+    margin: 5px 0 0 0;
+  }
+  .item-text-category {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    opacity: 0.7;
+    margin: 0;
+  }
+
+
+  /* ...................................contect................................... */
+
+  #add{
+    display: flex;
+    color: white;
+    background-color: #333;
+    padding: 30px;
+  }
+  .address{
+    padding: 70px;
+  }
+  .newproject{
+    text-align: center;
+    background-color: #ffbc00;
+    width: 100%;
+    height: 100px;
+    font-style: italic;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 40px;
+  }
+  form{
+    margin: 0 5cm;
+}
+form input{
+    margin: 10px;
+    padding: 0.2cm 15px;
+    padding-right: 10cm;
+    text-align: left;
+}
+
+
+  /* ...................................blog ................................... */
+
+
+
+    .blog .T-1{
+        display:flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .blog .column{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      }
+      .blog .column .i-1,.blog .column .column-1{
+        height: 100%;
+      }
+      .blog img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .blog .column-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 30px;
+        background-color: lightcyan;
+      }
+      .blog h2 {
+        font-size: 40px;
+        font-weight: 100;
+        padding: 10px;
+      }
+      .blog p{
+        margin: 20px 0px;
+      }
+      .blog a{
+        margin:10px;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+      }
+      .reverse .T-1{
+        flex-direction: row-reverse;
+      }
+
+
+
+    /* ...................................my project................................... */
+
+
+.img4{
+    background-image: url('desk7.jpeg');
+    width: 100%;
+    height: 400px;
+}
+.mypro{
+    color: darkblue;
+    padding: 100px;
+    font-size: 50px;
+    font-weight: 50px;
+}
+
+.he{
+  font-size:2.0rem;
+  background-color: #ccc;
+  line-height: 1.9;
+  margin-left: -1000px;
+}
+.proj{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+.head3{
+  color: #ffbc0a;
+  margin-left: -300px;
+}
+.pre {
+  overflow-y: scroll;
+  height: 30vh;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+pre{
+  margin-left: -150px;
+}
+
+
+
+  
+
+
+
+
+.content h5{
+  font-size: 5rem;
+  text-align: center;
+  /* background-image: url("project_img-2-1.png.crdownload"); */
+  padding: 80px;
+  color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3{
+  font-size:2.0rem;
+  background-color: #ccc;
+  line-height: 1.9;
+  padding-right:900px;
+}
+.proj{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  grid-gap: 1.5rem;
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.proj1{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  grid-gap: 1.5rem;
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+.head3{
+  color: #ffbc0a;
+}
+.pre {
+  overflow-y: scroll;
+  height: 30vh;
+  /* text-transform: uppercase; */
+  font-weight: bolder;
+}
+pre{
+  margin-left: -140px;
+}
